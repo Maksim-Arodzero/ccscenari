@@ -55,6 +55,64 @@ public class StepDefinitions {
     public void click_on_Postman() {
         webDriver.findElement(By.className("https://skillfactory.ru/courses/testirovanie")).click();
     }
+
+    @Then("click on chapter {string}")
+    public void click_on_chapter(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/qa-engineer-python-testirovshchik-programmnogo-obespecheniya")).click();
+    }
+
+    @Then("click on word {string}")
+    public void click_on_word(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses")).click();
+    }
+
+    @Then("click on chapter 2 {string}")
+    public void click_on_chapter_2(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses/backend-razrabotka")).click();
+    }
+
+    @Then("click on Kotlin")
+    public void click_on_Kotlin() {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses/kotlin")).click();
+    }
+
+    @Then("click on chapter 3 {string}")
+    public void click_on_chapter_3(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/android-razrabotchik")).click();
+    }
+
+    @Then("click on word 2 {string}")
+    public void click_on_word_2(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses")).click();
+    }
+
+    @Then("click on chapter 4 {string}")
+    public void click_on_chapter_4(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses/kiberbezopasnost")).click();
+    }
+
+    @Then("click on chapter 5 {string}")
+    public void click_on_chapter_5(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/cyber-security-etichnij-haker")).click();
+    }
+
+    @Then("click on word 3 {string}")
+    public void click_on_word_3(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses")).click();
+    }
+
+    @Then("click on chapter 6 {string}")
+    public void click_on_chapter_6(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses/management-i-upravlenie")).click();
+    }
+
+    @Then("click on Product Manager")
+    public void click_on_Product_Manger() {
+        webDriver.findElement(By.className("https://skillfactory.ru/product-manager-pro")).click();
+    }
+
+    @Then("click on word 4 {string}")
+    public void click_on_word_4(String click) {
+        webDriver.findElement(By.className("https://skillfactory.ru/courses")).click();
+    }
 }
-
-
